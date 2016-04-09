@@ -1,0 +1,82 @@
+
+
+body
+{
+  background-color: #E0E8F0;
+}
+div.scroll
+{
+    position: absolute;
+    top:220px;
+    left:145px;
+    background-color:#C0C0C0; 
+}
+
+div.groupimg { 
+    float: right;
+    position: absolute;
+    right: 250px;
+    top:220px;
+}
+
+div.description{
+	width : 700px;
+	height: 175px;
+	position:absolute;
+	right:250px;
+	top:1050px;
+	background-color:#6C6C6C; 
+	z-index:3;
+	
+}
+div.gallery{
+	position:absolute;
+	right:1185px;
+	top:1580px;
+	z-index:4;
+}
+
+div.gallery:hover{
+   border-color: #2B1B17;
+}
+
+div.smallimgs
+{
+	position :absolute;
+	right:250px;
+	top:900px;
+	width:700px;
+	height:150px;
+	background-color:#6C6C6C; 
+}
+.smallimgs:hover{
+	border-color:#2B1B17;
+}
+
+/*description below the picture
+button position align with the edge of the head pic
+description -->another element for description 
+get the final version on google drive
+mouse effect
+art gallery*/
+
+div.button{
+    position: absolute;
+    top: 220px;
+    left:1234px;
+    width: 20px;
+    height: 100px;
+}
+
+#left{
+    position: absolute;
+    right:-600px;
+    top:-400px;
+}
+
+#right{
+   
+    position: absolute;
+    right: 100px;
+    top:-400px;
+}
